@@ -1,4 +1,3 @@
-// test cases are described in fixtures.js
 describe('parseJSON', function() {
 
   it('should match the result of calling JSON.parse', function() {
