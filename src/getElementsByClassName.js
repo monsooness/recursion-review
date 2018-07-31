@@ -6,7 +6,7 @@
 // But instead we're going to implement it from scratch:
 var getElementsByClassName = function(className) {
   // your code here
-  var output = []
+  var output = [];
   var classSearch = function(node) {
     if (node.classList && node.classList.contains(className)) {
       output.push(node)
